@@ -1,0 +1,28 @@
+module.exports = {
+  extends: [
+    'stylelint-config-standard',
+    'stylelint-config-recommended-scss',
+    'stylelint-config-sass-guidelines',
+    'stylelint-config-prettier',
+  ],
+  plugins: ['stylelint-scss'],
+  rules: {
+    'import-notation': 'string',
+    'max-nesting-depth': 5,
+    'selector-max-compound-selectors': null,
+    'no-duplicate-selectors': true,
+    'block-no-empty': true,
+    'selector-max-id': 1,
+    'no-empty-source': null,
+    'no-descending-specificity': null,
+    'property-no-vendor-prefix': null,
+    'selector-no-qualifying-type': null,
+    'scss/at-function-pattern': null,
+    'scss/at-extend-no-missing-placeholder': null,
+    'scss/at-rule-no-unknown': true,
+    'scss/at-import-no-partial-leading-underscore': null,
+    'scss/at-import-partial-extension-blacklist': null,
+    'selector-class-pattern': null,
+  },
+  customSyntax: 'sugarss',
+};
