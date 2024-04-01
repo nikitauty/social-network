@@ -1,0 +1,9 @@
+@import '@/styles/variables';
+
+.layout {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 16fr;
+  background: $blue--darken-1;
+  background: linear-gradient(135deg, $blue--darken-1 0%, $red--darken-1 100%);
+}
