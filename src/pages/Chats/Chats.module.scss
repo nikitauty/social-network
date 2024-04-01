@@ -1,0 +1,11 @@
+@import '@/styles/variables';
+.chats {
+  display: grid;
+  grid-template-columns: 3fr 8fr;
+  height: 100%;
+  color: $white--darken-1;
+
+  .users {
+    border-right: 1px solid $gray--darken-1;
+  }
+}
