@@ -1,9 +1,10 @@
 import styles from './Chats.module.scss';
+import { ChatsList } from '@/components/ChatsList';
 
 export const Chats = () => {
   return (
     <div className={styles.chats}>
-      <section className={styles.users}>Users</section>
+      <ChatsList />
       <main className={styles.chat}>Chats</main>
     </div>
   );
