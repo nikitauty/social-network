@@ -17,7 +17,16 @@
       width: 240px;
       background: none;
       border: none;
-      color: $gray;
+      color: white;
+      height: 30px;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        color: $gray;
+      }
     }
   }
 

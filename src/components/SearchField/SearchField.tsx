@@ -7,7 +7,7 @@ export const SearchField = () => {
       <div className={styles.search_box}>
         <SearchIcon />
         <input
-          type="search"
+          type="text"
           name="search_input"
           id="search_input"
           placeholder="People, groups and messages"
