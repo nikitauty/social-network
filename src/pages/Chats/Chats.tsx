@@ -1,5 +1,5 @@
 import styles from './Chats.module.scss';
-import { ChatsList } from '@/components/ChatsList';
+import { ChatsList } from '@/features/ChatsList';
 
 export const Chats = () => {
   return (
