@@ -20,7 +20,7 @@ module.exports = {
     project: ['../tsconfig.json', '../tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'src/components/ui'],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh', 'prettier', '@typescript-eslint'],
   rules: {
