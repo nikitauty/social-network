@@ -7,7 +7,7 @@ export const ProfileCard = () => {
   return (
     <div className={styles.profile_card}>
       <div className={styles.user}>
-        <CircleAvatar image="/4.jpg" />
+        <CircleAvatar image="/4.jpg" isOnline />
         <div className={styles.information}>
           <span>Carter Donin</span>
           <span className={styles.description}>UI / UX Designer</span>

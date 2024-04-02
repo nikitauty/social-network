@@ -16,3 +16,14 @@
     border-radius: inherit;
   }
 }
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-color: #68d391;
+  position: absolute;
+  bottom: calc(100% - 64px);
+  right: calc(100% - 130px);
+}
