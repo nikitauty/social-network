@@ -1,5 +1,5 @@
-import { ProfileCard } from '../ProfileCard';
-import { SearchField } from '../../components/SearchField';
+import { ProfileCard } from '@/features/ProfileCard';
+import { SearchField } from '@/components/SearchField';
 import styles from './ChatsList.module.scss';
 
 export const ChatsList = () => {
