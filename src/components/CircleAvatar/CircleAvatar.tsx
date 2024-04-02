@@ -1,8 +1,8 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import styles from './CirclePhoto.module.scss';
-import type { CirclePhotoProps } from './types';
+import styles from './CircleAvatar.module.scss';
+import type { CircleAvatarProps } from './types';
 
-export const CirclePhoto = ({ image }: CirclePhotoProps) => {
+export const CircleAvatar = ({ image }: CircleAvatarProps) => {
   return (
     <Avatar className={styles.avatar}>
       <AvatarImage src={image} className={styles.image} />
