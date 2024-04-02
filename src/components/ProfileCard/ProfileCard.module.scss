@@ -1,0 +1,31 @@
+@import '@/styles/variables';
+
+.profile_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $gray--darken-1;
+  padding: 0px 20px;
+
+  .user {
+    display: flex;
+    gap: 20px;
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .description {
+        color: $gray;
+      }
+    }
+  }
+
+  .settings_button {
+    color: $gray;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
