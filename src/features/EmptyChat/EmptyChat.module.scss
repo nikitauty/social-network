@@ -1,0 +1,15 @@
+@import '@/styles/variables';
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .badge {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: $white;
+  }
+}

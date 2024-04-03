@@ -1,9 +1,12 @@
 import { Badge } from '@/components/ui/badge';
+import styles from './EmptyChat.module.scss';
 
 export const EmptyChat = () => {
   return (
-    <div>
-      <Badge>Select a chat to start messaging</Badge>
+    <div className={styles.banner}>
+      <Badge variant="default" className={styles.badge}>
+        Select a chat to start messaging
+      </Badge>
     </div>
   );
 };

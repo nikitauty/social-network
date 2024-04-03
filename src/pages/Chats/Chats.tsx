@@ -5,7 +5,7 @@ import { ChatsPanel } from '@/features/ChatsPanel';
 import { EmptyChat } from '@/features/EmptyChat';
 
 export const Chats = () => {
-  const [currentChat, setCurrentChat] = useState();
+  const [currentChat, setCurrentChat] = useState(0);
   return (
     <div className={styles.chats}>
       <ChatsPanel />

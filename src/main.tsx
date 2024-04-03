@@ -4,6 +4,7 @@ import { App } from './App';
 
 import 'normalize.css';
 import '@/styles/styles.scss';
+import '@/styles/styles.css';
 
 const app = ReactDOM.createRoot(document.getElementById('root')!);
 
