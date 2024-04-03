@@ -5,8 +5,8 @@
   vertical-align: middle;
   overflow: hidden;
   user-select: none;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   border-radius: 100%;
 
   .image {
@@ -18,12 +18,12 @@
 }
 
 .indicator {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   border: 1px solid rgba(255, 0, 0, 0);
   background-color: #68d391;
   position: absolute;
-  bottom: calc(100% - 64px);
-  right: calc(100% - 130px);
+  bottom: calc(100% - 20px);
+  right: calc(100% - 30px);
 }

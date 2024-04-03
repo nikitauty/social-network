@@ -1,32 +1,25 @@
 @import '@/styles/variables';
 
-.profile_card {
+.stories {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid $gray--darken-1;
   padding: 0px 20px;
 
-  .user {
+  button {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 15px;
-
-    .information {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 5px;
-
-      .description {
-        color: $gray;
-      }
-    }
-  }
-
-  .settings_button {
-    color: $gray;
     background: none;
     border: none;
     cursor: pointer;
+
+    span {
+      color: $white;
+      font-size: 12px;
+    }
   }
 }

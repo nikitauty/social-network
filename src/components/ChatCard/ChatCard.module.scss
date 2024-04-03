@@ -1,0 +1,47 @@
+@import '@/styles/variables';
+
+.chat_card {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $gray--darken-1;
+
+  .user {
+    display: flex;
+    gap: 15px;
+
+    .main {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+
+      .message {
+        font-size: 14px;
+        color: $gray;
+      }
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+
+    .time {
+      color: $gray;
+      font-size: 12px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .read {
+      color: green;
+    }
+  }
+}

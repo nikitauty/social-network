@@ -1,11 +1,17 @@
+import { useState } from 'react';
+import { Chat } from '@/features/Chat';
 import styles from './Chats.module.scss';
-import { ChatsList } from '@/features/ChatsList';
+import { ChatsPanel } from '@/features/ChatsPanel';
+import { EmptyChat } from '@/features/EmptyChat';
 
 export const Chats = () => {
+  const [currentChat, setCurrentChat] = useState();
   return (
     <div className={styles.chats}>
-      <ChatsList />
-      <main className={styles.chat}>Chats</main>
+      <ChatsPanel />
+      <main className={styles.chat}>
+        {currentChat ? <Chat /> : <EmptyChat />}
+      </main>
     </div>
   );
 };

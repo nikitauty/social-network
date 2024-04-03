@@ -1,0 +1,7 @@
+@import '@/styles/variables';
+
+.chats_list {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 2.5fr 10fr;
+  border-right: 1px solid $gray--darken-1;
+}

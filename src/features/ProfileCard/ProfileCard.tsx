@@ -1,20 +1,24 @@
-import { Settings2Icon } from 'lucide-react';
+import { EllipsisIcon, Settings2Icon } from 'lucide-react';
 import styles from './ProfileCard.module.scss';
 import { CircleAvatar } from '@/components/CircleAvatar';
+import { ProfileCardProps } from './types';
 
-// TODO: fix eslintjsx-a11y/control-has-associated-label error line 15
-export const ProfileCard = () => {
+export const ProfileCard = ({ user }: ProfileCardProps) => {
   return (
     <div className={styles.profile_card}>
       <div className={styles.user}>
-        <CircleAvatar image="/4.jpg" isOnline />
+        <CircleAvatar image={user.image} isOnline={user.isOnline} />
         <div className={styles.information}>
-          <span>Carter Donin</span>
-          <span className={styles.description}>UI / UX Designer</span>
+          <span>{user.name}</span>
+          <span className={styles.description}>{user.description}</span>
         </div>
       </div>
-      <button type="button" className={styles.settings_button}>
-        <Settings2Icon />
+      <button
+        type="button"
+        className={styles.settings_button}
+        aria-label="settings"
+      >
+        <EllipsisIcon />
       </button>
     </div>
   );
