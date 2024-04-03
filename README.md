@@ -10,4 +10,4 @@ STACK:
 
 PROJECT REFERENCE
 
-![alt text](/public/maket.jpg)
+![project reference](/public/maket.jpg)
