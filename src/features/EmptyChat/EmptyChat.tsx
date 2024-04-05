@@ -6,6 +6,7 @@ export const EmptyChat = () => {
     <div className={styles.banner}>
       <Badge variant="default" className={styles.badge}>
         Select a chat to start messaging
+        <Badge variant="destructive">Aboba</Badge>
       </Badge>
     </div>
   );
