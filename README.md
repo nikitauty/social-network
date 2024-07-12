@@ -1,6 +1,6 @@
-SOCIAL NETWORK APPLICATION
+# SOCIAL NETWORK APP
 
-STACK:
+# STACK:
 
 - TypeScript
 - React
@@ -8,6 +8,6 @@ STACK:
 - SCSS
 - shadcn/ui
 
-PROJECT REFERENCE
+# PROJECT REFERENCE
 
 ![project reference](/public/maket.jpg)
